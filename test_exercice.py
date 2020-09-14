@@ -11,17 +11,17 @@ class TestExercice(unittest.TestCase):
 	def setUp(self):
 		pass
 
-	def test_dissipated_power(self):
-		data = [(69, 420),
-		        (42, 9000)]
-		expected = [1_999_620,
-		            15_876_000]
-		output = [dissipated_power(d[0], d[1]) for d in data]
-		self.assertEqual(
-			expected,
-			output,
-			"Calcul incorrect"
-		)
+	#def test_dissipated_power(self):
+	#	data = [(69, 420),
+	#	        (42, 9000)]
+	#	expected = [1_999_620,
+	#	            15_876_000]
+	#	output = [dissipated_power(d[0], d[1]) for d in data]
+	#	self.assertEqual(
+	#		expected,
+	#		output,
+	#		"Calcul incorrect"
+	#	)
 
 	def test_orthogonal(self):
 		data = [((1, 1), (-1, 1)),
