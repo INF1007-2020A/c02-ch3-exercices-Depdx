@@ -18,8 +18,8 @@ Chaque exercice est dans une fonction dans [exercice.py](exercice.py) et retourn
 
 Écrire un algorithme qui calcule la moyenne entre des valeurs positives d'une liste. Le nombre de valeurs n’est pas connu à l’avance, et il faut ignorer les valeurs négatives.
 
+Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
+
 ## 4. Monnaie à rendre
 
 Écrire un algorithme qui calcule, à partir d'une valeur entière, la monnaie à rendre en billets de 100$, 20$, 10$, 5$ et en pièces de 1$.
-
-Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
