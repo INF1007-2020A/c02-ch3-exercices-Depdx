@@ -23,17 +23,17 @@ def bills(value):
 	twenties, tens, fives, ones = 0 , 0 , 0 , 0
 	while value != 0:
 		if value >= 20:
-			twenties += 1
-			value -= 20
+			twenties = value//20
+			value = value % 20
 		elif value >= 10:
-			tens += 1
-			value -= 10
+			tens = value // 10
+			value = value % 10
 		elif value >= 5:
-			fives += 1
-			value -= 5
+			fives = value // 5
+			value = value % 5
 		elif value >= 1:
-			ones += 1
-			value -= 1
+			ones = value // 1
+			value = value % 1
 	return twenties, tens, fives, ones
 
 if __name__ == "__main__":
